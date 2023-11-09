@@ -1,0 +1,30 @@
+.die-container {
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.die {
+    min-width: 50px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 0.4s;
+}
+
+.die:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    transition: 0ms;
+}
+
+.die--locked {
+    background-color: darkblue;
+    color: white;
+}

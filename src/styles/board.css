@@ -1,0 +1,19 @@
+.board {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.board h1 {
+    margin-bottom: 5px;
+}
+
+.board p {
+    margin-top: 5px;
+    padding: 10px;
+}

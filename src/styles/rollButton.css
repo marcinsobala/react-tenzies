@@ -1,0 +1,27 @@
+.roll-button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px;
+    transition: 300ms;
+    margin-bottom: 20px;
+}
+
+.roll-button:hover {
+    cursor: pointer;
+    background-color: #0d00c9;
+    transition: 100ms;
+}
+
+.roll-button:focus {
+    outline: none;
+}
+
+.roll-button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
